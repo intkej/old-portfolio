@@ -19,8 +19,8 @@ setTimeout(() => {
 function changePage(page) {
     var pageURL;
     switch (page) {
-      case 'skills':
-        pageURL = 'skills.html';
+      case 'services':
+        pageURL = 'services.html';
         break;
       case 'aboutme':
         pageURL = 'moreaboutme.html';
