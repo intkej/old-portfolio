@@ -69,61 +69,6 @@ body {
     color: lightgrey;
 }
 
-* {
-    box-sizing: border-box;
-    background-color: #1d1d2b;
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #15c5e4;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    background-color: white;
-}
-
-input[type=submit] {
-    background-color: #04AA6D;
-    color: rgb(255, 255, 255);
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #1d1d2b;
-    padding: 10px;
-    text-align: center;
-}
-
-.column {
-    display: inline-block;
-    text-align: left;
-    width: 50%;
-    padding: 20px;
-    margin: 0 auto; 
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-@media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-}
-
 .products-container {
     display: flex;
     max-width: 800px;
@@ -174,8 +119,7 @@ input[type=submit]:hover {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color:
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
@@ -210,4 +154,49 @@ input[type=submit]:hover {
 .cool-text::-webkit-scrollbar-thumb {
     background: rgb(71, 51, 51);
     border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container {
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    background-color: #fff;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.github-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
