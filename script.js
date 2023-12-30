@@ -25,9 +25,6 @@ function changePage(page) {
       case 'aboutme':
         pageURL = 'moreaboutme.html';
         break;
-      case 'projects':
-        pageURL = 'projects.html';
-        break;
       default:
         pageURL = 'index.html';
     }
