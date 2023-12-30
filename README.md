@@ -4,7 +4,7 @@ Source code of my website, https://intke.net
 
 # The project is under MIT license
 
-Copyright (c) 2023 Johannes
+Copyright (c) 2023 Johannes Intke
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
