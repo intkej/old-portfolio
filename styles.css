@@ -128,8 +128,8 @@ body {
 
 .cta-button a i.fab.fa-github {
     color: #ffffff !important;
+    background-color: transparent !important;
 }
-
 
 .cool-text {
     font-size: 28px;
