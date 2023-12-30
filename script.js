@@ -14,7 +14,7 @@ function typeMainText() {
 
 setTimeout(() => {
     typeMainText();
-}, 3000);
+}, 1000);
 
 function changePage(page) {
     var pageURL;
@@ -24,6 +24,9 @@ function changePage(page) {
         break;
       case 'aboutme':
         pageURL = 'moreaboutme.html';
+        break;
+      case 'projects':
+        pageURL = 'projects.html';
         break;
       default:
         pageURL = 'index.html';
