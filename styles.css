@@ -127,8 +127,9 @@ body {
 }
 
 .cta-button a i.fab.fa-github {
-    color: #ffffff !important; /* Set the color of the GitHub icon to white */
+    color: #ffffff !important;
 }
+
 
 .cool-text {
     font-size: 28px;
