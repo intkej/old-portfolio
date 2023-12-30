@@ -171,6 +171,9 @@ input[type=submit]:hover {
     margin-bottom: 20px;
 }
 
+.cta-button a i.fab.fa-github {
+    color: #ffffff;
+}
 .cta-button a {
     display: inline-block;
     padding: 10px 20px;
@@ -180,6 +183,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
 
 .cool-text {
     font-size: 28px;
