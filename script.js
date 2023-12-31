@@ -15,19 +15,3 @@ function typeMainText() {
 setTimeout(() => {
     typeMainText();
 }, 1000);
-
-function changePage(page) {
-    var pageURL;
-    switch (page) {
-      case 'services':
-        pageURL = 'services.html';
-        break;
-      case 'aboutme':
-        pageURL = 'moreaboutme.html';
-        break;
-      default:
-        pageURL = 'index.html';
-    }
-
-    window.location.href = pageURL;
-}
