@@ -119,8 +119,11 @@ input[type=submit]:hover {
 
 .products-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     max-width: 800px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .product {
@@ -128,8 +131,10 @@ input[type=submit]:hover {
     padding: 20px;
     border: 2px solid #15c5e4;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    max-width: 300px;
 }
 
 .product img {
@@ -152,6 +157,13 @@ input[type=submit]:hover {
 .product p {
     margin: 10px 0;
     text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .product {
+        width: 100%;
+        max-width: none;
+    }
 }
 
 .container {
